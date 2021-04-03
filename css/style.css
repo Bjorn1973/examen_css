@@ -18,7 +18,7 @@ header {
   background-color: var(--zwart);
   margin: 0 auto;
 }
-header div.container {
+div.container {
   width: 80%;
   max-width: 1110px;
   margin: 0 auto;
@@ -55,6 +55,58 @@ header div.container nav ul li a:hover {
 main {
   width: 100%;
   max-width: 1400px;
+  height: 80%;
+  max-height: 650px;
   margin: 0 auto;
   background-image: url(../image/banner_background.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 113px;
+  padding-bottom: 135px;
+}
+main div.container {
+  display: flex;
+}
+main div.container img {
+  display: block;
+  width: 119px;
+  height: 65px;
+  margin-bottom: 23px;
+}
+main div.container div h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: var(--wit);
+  width: calc(44% + 221px);
+  position: relative;
+  padding-bottom: 65px;
+}
+main div.container div h1::after {
+  content: "";
+  width: 64px;
+  height: 2px;
+  background-color: var(--wit);
+  position: absolute;
+  left: 0px;
+  top: 119px;
+}
+main div.container div p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  color: var(--wit);
+  width: calc(33% + 272px);
+  padding-bottom: 47px;
+}
+main div.container div button {
+  border: 2px solid var(--wit);
+  background-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--wit);
+  padding: 14px 30px;
 }
