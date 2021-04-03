@@ -302,8 +302,6 @@ section.social div.container ul li:nth-of-type(6) a {
 @media screen and (max-width: 425px) {
   div.container {
     width: 80%;
-    max-width: 1110px;
-    margin: 0 auto;
   }
   header div.container nav {
     display: flex;
@@ -398,6 +396,42 @@ section.social div.container ul li:nth-of-type(6) a {
     color: var(--grijs);
     font-size: 25px;
     padding-right: 40px;
+  }
+  section.social div.container ul li:nth-of-type(6) a,
+  section.social div.container ul li:nth-of-type(3) a {
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  div.container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header div.container nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+  }
+  header div.container nav a {
+    width: 20px;
+    height: auto;
+  }
+  header div.container nav ul li a {
+    font-size: 10px;
+    padding-right: 10px;
+  }
+
+  section.social div.container ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  section.social div.container ul li a {
+    color: var(--grijs);
+    font-size: 20px;
+    padding-right: 30px;
   }
   section.social div.container ul li:nth-of-type(6) a,
   section.social div.container ul li:nth-of-type(3) a {
