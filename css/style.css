@@ -299,3 +299,108 @@ section.social div.container ul li:nth-of-type(6) a {
     padding-right: 30px;
   }
 }
+@media screen and (max-width: 425px) {
+  div.container {
+    width: 80%;
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+  header div.container nav {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  header div.container nav a {
+    width: 30px;
+    height: auto;
+  }
+  header div.container nav ul li a {
+    font-size: 13px;
+    padding-right: 15px;
+  }
+  main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  main div.container {
+    display: block;
+  }
+  main div.container img {
+    width: 75px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  main div.container div h1 {
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  main div.container div h1::after {
+    top: 65px;
+  }
+  main div.container div p {
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  main div.container div button {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+  main div.container div.input {
+    width: 100%;
+  }
+  main div.container div.input h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  main div.container div.input input:nth-of-type(1) {
+    padding-top: 20px;
+    padding-bottom: 7px;
+  }
+  main div.container div.input input:nth-of-type(2) {
+    padding-bottom: 7px;
+    padding-top: 20px;
+  }
+  main div.container div.input input:nth-of-type(3) {
+    padding-bottom: 7px;
+    padding-top: 30px;
+  }
+  main div.container div.input div {
+    height: 20px;
+    background-color: var(--wit);
+  }
+  main div.container div.input button {
+    padding-left: 125px;
+  }
+  section.social div.container span {
+    margin-right: 75px;
+  }
+  section.social div.container span h3 {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  section.social div.container span p {
+    font-size: 10px;
+    color: var(--grijs);
+    padding-bottom: 28px;
+  }
+  section.social div.container ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  section.social div.container ul li a {
+    color: var(--grijs);
+    font-size: 25px;
+    padding-right: 40px;
+  }
+  section.social div.container ul li:nth-of-type(6) a,
+  section.social div.container ul li:nth-of-type(3) a {
+    padding-right: 0px;
+  }
+}
