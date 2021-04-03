@@ -1,0 +1,13 @@
+{
+  "name": "examen_css_3421",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "surge . examen-css-bjorn.surge.sh",
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
